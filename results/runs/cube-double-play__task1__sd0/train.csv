@@ -1,0 +1,2 @@
+training/actor_loss,training/bc_loss,training/critic_loss,training/grad/max,training/grad/min,training/grad/norm,training/q,training/q_max,training/q_mean,training/q_min,training/q_pe_max,training/q_pe_mean,training/q_pe_min,training/total_loss,time/epoch_time,time/total_time,step
+120.99645,0.2504359,4.2922688,0.21371788,-0.2375684,30.610691,-122.29934,-34.727966,-122.29934,-143.27278,-38.17657,-122.00169,-142.7808,127.793076,0.005375814914703369,53.75815773010254,10000

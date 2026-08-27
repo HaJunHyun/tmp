@@ -1,0 +1,82 @@
+diff --git a/envs/log_utils.py b/envs/log_utils.py
+index ad82658..cc72095 100644
+--- a/envs/log_utils.py
++++ b/envs/log_utils.py
+@@ -82,7 +82,7 @@ def setup_wandb(
+             start_method='thread',
+             _disable_stats=False,
+         ),
+-        mode=mode,
++        mode=os.environ.get('WANDB_MODE', mode),
+         save_code=True,
+     )
+ 
+@@ -106,9 +106,9 @@ def reshape_video(v, n_cols=None):
+         v = np.concatenate((v, np.zeros(shape=(len_addition, t, h, w, c))), axis=0)
+     n_rows = v.shape[0] // n_cols
+ 
+-    v = np.reshape(v, newshape=(n_rows, n_cols, t, h, w, c))
++    v = np.reshape(v, (n_rows, n_cols, t, h, w, c))
+     v = np.transpose(v, axes=(2, 5, 0, 3, 1, 4))
+-    v = np.reshape(v, newshape=(t, c, n_rows * h, n_cols * w))
++    v = np.reshape(v, (t, c, n_rows * h, n_cols * w))
+ 
+     return v
+ 
+diff --git a/main.py b/main.py
+index ad36105..71473bf 100644
+--- a/main.py
++++ b/main.py
+@@ -35,6 +35,7 @@ flags.DEFINE_integer('online_steps', 0, 'Number of online steps.')
+ flags.DEFINE_integer('buffer_size', 100000000, 'Replay buffer size.')
+ flags.DEFINE_integer('log_interval', 5000, 'Logging interval.')
+ flags.DEFINE_integer('eval_interval', 100000, 'Evaluation interval.')
++flags.DEFINE_string('eval_at', '', 'Comma-separated step numbers to evaluate at. Overrides eval_interval when set.')
+ flags.DEFINE_integer('save_interval', 1000000, 'Saving interval.')
+ flags.DEFINE_integer('eval_episodes', 50, 'Number of evaluation episodes.')
+ flags.DEFINE_integer('video_episodes', 0, 'Number of video episodes for each task.')
+@@ -128,6 +129,7 @@ def main(_):
+     online_rng = jax.random.PRNGKey(FLAGS.seed)
+ 
+     eps_dataset, eps = defaultdict(list), []
++    eval_at = {int(x) for x in FLAGS.eval_at.split(',') if x.strip()} or None
+ 
+     for i in tqdm.tqdm(range(1, FLAGS.offline_steps + FLAGS.online_steps + 1), smoothing=0.1, dynamic_ncols=True):
+         if i <= FLAGS.offline_steps:
+@@ -204,7 +206,10 @@ def main(_):
+             train_logger.log(train_metrics, step=i)
+ 
+         # Evaluate agent.
+-        if FLAGS.eval_interval != 0 and (i == 1 or i % FLAGS.eval_interval == 0):
++        do_eval = (i in eval_at) if eval_at is not None else (
++            FLAGS.eval_interval != 0 and (i == 1 or i % FLAGS.eval_interval == 0)
++        )
++        if do_eval:
+             renders = []
+             eval_metrics = {}
+             eval_info, trajs, cur_renders = evaluate(
+diff --git a/utils/log_utils.py b/utils/log_utils.py
+index ad82658..cc72095 100644
+--- a/utils/log_utils.py
++++ b/utils/log_utils.py
+@@ -82,7 +82,7 @@ def setup_wandb(
+             start_method='thread',
+             _disable_stats=False,
+         ),
+-        mode=mode,
++        mode=os.environ.get('WANDB_MODE', mode),
+         save_code=True,
+     )
+ 
+@@ -106,9 +106,9 @@ def reshape_video(v, n_cols=None):
+         v = np.concatenate((v, np.zeros(shape=(len_addition, t, h, w, c))), axis=0)
+     n_rows = v.shape[0] // n_cols
+ 
+-    v = np.reshape(v, newshape=(n_rows, n_cols, t, h, w, c))
++    v = np.reshape(v, (n_rows, n_cols, t, h, w, c))
+     v = np.transpose(v, axes=(2, 5, 0, 3, 1, 4))
+-    v = np.reshape(v, newshape=(t, c, n_rows * h, n_cols * w))
++    v = np.reshape(v, (t, c, n_rows * h, n_cols * w))
+ 
+     return v
+ 
