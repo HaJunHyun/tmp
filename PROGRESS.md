@@ -1,5 +1,5 @@
-last sync: 2026-08-27 18:20:23 UTC
-runs with metric files: 32 / 320
+last sync: 2026-08-27 18:23:41 UTC
+runs with metric files: 48 / 320
 
 wrote 0 rows to /workspace/rql_export/results/per_run.csv
 
@@ -7,4 +7,4 @@ evaluation/success  (%, mean±std over seeds)
 group        n  avg3(800/900/1M)    final(1M)
 ----------------------------------------------
 
-34 run(s) incomplete/missing: antmaze-giant-navigate__task1__sd0 antmaze-giant-navigate__task1__sd1 antmaze-giant-navigate__task1__sd2 antmaze-giant-navigate__task1__sd3 antmaze-large-navigate__task1__sd0 antmaze-large-navigate__task1__sd1 antmaze-large-navigate__task1__sd2 antmaze-large-navigate__task1__sd3 cube-double-play__task1__sd0 cube-double-play__task1__sd1 ...
+48 run(s) incomplete/missing: antmaze-giant-navigate__task1__sd0 antmaze-giant-navigate__task1__sd1 antmaze-giant-navigate__task1__sd2 antmaze-giant-navigate__task1__sd3 antmaze-giant-navigate__task1__sd4 antmaze-giant-navigate__task1__sd5 antmaze-large-navigate__task1__sd0 antmaze-large-navigate__task1__sd1 antmaze-large-navigate__task1__sd2 antmaze-large-navigate__task1__sd3 ...
