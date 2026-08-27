@@ -36,10 +36,11 @@ python "$REPO/collect_results.py" --results "$RESULTS" --by task \
   > "$EX/results/summary_by_task.txt" 2>&1
 
 # 4) progress line for the README
-done_n=$(ls -d "$EX"/results/runs/*/ 2>/dev/null | wc -l)
+done_n=$(ls -d "$RESULTS"/runs/*/DONE 2>/dev/null | wc -l)
+started_n=$(ls -d "$RESULTS"/runs/*/ 2>/dev/null | wc -l)
 {
   echo "last sync: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-  echo "runs with metric files: $done_n / 320"
+  echo "completed runs: $done_n / 320   (started: $started_n)"
   echo
   cat "$EX/results/summary_by_domain.txt"
 } > "$EX/PROGRESS.md"
@@ -47,7 +48,7 @@ done_n=$(ls -d "$EX"/results/runs/*/ 2>/dev/null | wc -l)
 cd "$EX"
 git add -A
 if git diff --cached --quiet; then echo "sync: nothing changed"; exit 0; fi
-git commit -q -m "sweep results: $(date -u '+%Y-%m-%d %H:%M UTC') (${done_n}/320 runs)"
+git commit -q -m "sweep results: $(date -u '+%Y-%m-%d %H:%M UTC') (${done_n}/320 complete)"
 echo "sync: committed (${done_n}/320)"
 if [ "${1:-}" != "--no-push" ] && git remote get-url origin >/dev/null 2>&1; then
   git push -q origin HEAD && echo "sync: pushed" || echo "sync: push FAILED"
