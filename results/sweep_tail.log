@@ -136,3 +136,11 @@
 [134/320 | fail 0 | 10.01h elapsed | ETA 13.89h] done   antmaze-giant-navigate__task3__sd0
 [135/320 | fail 0 | 10.01h elapsed | ETA 13.72h] done   cube-double-play__task3__sd1
 [136/320 | fail 0 | 10.02h elapsed | ETA 13.56h] done   humanoidmaze-large-navigate__task2__sd5
+[137/320 | fail 0 | 10.18h elapsed | ETA 13.60h] done   cube-triple-play__task3__sd0
+[138/320 | fail 0 | 10.23h elapsed | ETA 13.49h] done   humanoidmaze-large-navigate__task2__sd7
+[139/320 | fail 0 | 10.26h elapsed | ETA 13.36h] done   antmaze-giant-navigate__task3__sd1
+[140/320 | fail 0 | 10.29h elapsed | ETA 13.23h] done   humanoidmaze-large-navigate__task3__sd0
+[141/320 | fail 0 | 10.33h elapsed | ETA 13.11h] done   humanoidmaze-medium-navigate__task3__sd1
+[142/320 | fail 0 | 10.34h elapsed | ETA 12.96h] done   humanoidmaze-large-navigate__task2__sd6
+[143/320 | fail 0 | 10.35h elapsed | ETA 12.81h] done   cube-triple-play__task3__sd1
+[144/320 | fail 0 | 10.91h elapsed | ETA 13.34h] done   humanoidmaze-large-navigate__task3__sd1

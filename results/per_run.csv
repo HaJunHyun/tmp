@@ -16,6 +16,7 @@ antmaze-giant-navigate__task2__sd5,antmaze-giant-navigate,task2,sd5,0.2533333333
 antmaze-giant-navigate__task2__sd6,antmaze-giant-navigate,task2,sd6,0.3,0.36
 antmaze-giant-navigate__task2__sd7,antmaze-giant-navigate,task2,sd7,0.44,0.5
 antmaze-giant-navigate__task3__sd0,antmaze-giant-navigate,task3,sd0,0.21333333333333335,0.3
+antmaze-giant-navigate__task3__sd1,antmaze-giant-navigate,task3,sd1,0.5,0.36
 antmaze-large-navigate__task1__sd0,antmaze-large-navigate,task1,sd0,0.7733333333333333,0.86
 antmaze-large-navigate__task1__sd1,antmaze-large-navigate,task1,sd1,0.8466666666666667,0.86
 antmaze-large-navigate__task1__sd2,antmaze-large-navigate,task1,sd2,0.7733333333333333,0.82
@@ -68,6 +69,8 @@ cube-triple-play__task2__sd4,cube-triple-play,task2,sd4,0.006666666666666667,0.0
 cube-triple-play__task2__sd5,cube-triple-play,task2,sd5,0.013333333333333334,0.0
 cube-triple-play__task2__sd6,cube-triple-play,task2,sd6,0.0,0.0
 cube-triple-play__task2__sd7,cube-triple-play,task2,sd7,0.006666666666666667,0.02
+cube-triple-play__task3__sd0,cube-triple-play,task3,sd0,0.0,0.0
+cube-triple-play__task3__sd1,cube-triple-play,task3,sd1,0.013333333333333334,0.02
 humanoidmaze-large-navigate__task1__sd0,humanoidmaze-large-navigate,task1,sd0,0.7866666666666666,0.82
 humanoidmaze-large-navigate__task1__sd1,humanoidmaze-large-navigate,task1,sd1,0.6933333333333334,0.78
 humanoidmaze-large-navigate__task1__sd2,humanoidmaze-large-navigate,task1,sd2,0.7999999999999999,0.74
@@ -82,6 +85,10 @@ humanoidmaze-large-navigate__task2__sd2,humanoidmaze-large-navigate,task2,sd2,0.
 humanoidmaze-large-navigate__task2__sd3,humanoidmaze-large-navigate,task2,sd3,0.05333333333333334,0.1
 humanoidmaze-large-navigate__task2__sd4,humanoidmaze-large-navigate,task2,sd4,0.02666666666666667,0.04
 humanoidmaze-large-navigate__task2__sd5,humanoidmaze-large-navigate,task2,sd5,0.08666666666666667,0.1
+humanoidmaze-large-navigate__task2__sd6,humanoidmaze-large-navigate,task2,sd6,0.04666666666666667,0.04
+humanoidmaze-large-navigate__task2__sd7,humanoidmaze-large-navigate,task2,sd7,0.013333333333333334,0.0
+humanoidmaze-large-navigate__task3__sd0,humanoidmaze-large-navigate,task3,sd0,0.20666666666666667,0.26
+humanoidmaze-large-navigate__task3__sd1,humanoidmaze-large-navigate,task3,sd1,0.25333333333333335,0.24
 humanoidmaze-medium-navigate__task1__sd0,humanoidmaze-medium-navigate,task1,sd0,0.98,1.0
 humanoidmaze-medium-navigate__task1__sd1,humanoidmaze-medium-navigate,task1,sd1,0.9733333333333333,1.0
 humanoidmaze-medium-navigate__task1__sd2,humanoidmaze-medium-navigate,task1,sd2,0.98,0.98
@@ -99,6 +106,7 @@ humanoidmaze-medium-navigate__task2__sd5,humanoidmaze-medium-navigate,task2,sd5,
 humanoidmaze-medium-navigate__task2__sd6,humanoidmaze-medium-navigate,task2,sd6,0.9933333333333333,1.0
 humanoidmaze-medium-navigate__task2__sd7,humanoidmaze-medium-navigate,task2,sd7,1.0,1.0
 humanoidmaze-medium-navigate__task3__sd0,humanoidmaze-medium-navigate,task3,sd0,1.0,1.0
+humanoidmaze-medium-navigate__task3__sd1,humanoidmaze-medium-navigate,task3,sd1,1.0,1.0
 puzzle-3x3-play__task1__sd0,puzzle-3x3-play,task1,sd0,1.0,1.0
 puzzle-3x3-play__task1__sd1,puzzle-3x3-play,task1,sd1,1.0,1.0
 puzzle-3x3-play__task1__sd2,puzzle-3x3-play,task1,sd2,1.0,1.0
