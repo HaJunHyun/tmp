@@ -1,15 +1,3 @@
-[sweep] 320 runs total | 0 already complete | 320 to run
-[sweep] concurrency=48 gpus=[0, 1, 2, 3, 4, 5, 6, 7] results=/workspace/rql_results
-[  1/320 | fail 0 |  3.15h elapsed | ETA 1005.27h] done   scene-play__task1__sd1
-[  2/320 | fail 0 |  3.16h elapsed | ETA 501.68h] done   scene-play__task1__sd0
-[  3/320 | fail 0 |  3.16h elapsed | ETA 333.75h] done   antmaze-large-navigate__task1__sd1
-[  4/320 | fail 0 |  3.16h elapsed | ETA 249.54h] done   scene-play__task1__sd3
-[  5/320 | fail 0 |  3.16h elapsed | ETA 199.10h] done   antmaze-large-navigate__task1__sd0
-[  6/320 | fail 0 |  3.16h elapsed | ETA 165.55h] done   antmaze-large-navigate__task1__sd3
-[  7/320 | fail 0 |  3.16h elapsed | ETA 141.48h] done   scene-play__task1__sd2
-[  8/320 | fail 0 |  3.17h elapsed | ETA 123.49h] done   antmaze-large-navigate__task1__sd2
-[  9/320 | fail 0 |  3.17h elapsed | ETA 109.54h] done   scene-play__task1__sd4
-[ 10/320 | fail 0 |  3.17h elapsed | ETA 98.35h] done   scene-play__task1__sd5
 [ 11/320 | fail 0 |  3.18h elapsed | ETA 89.22h] done   puzzle-3x3-play__task1__sd0
 [ 12/320 | fail 0 |  3.19h elapsed | ETA 81.81h] done   antmaze-large-navigate__task1__sd4
 [ 13/320 | fail 0 |  3.19h elapsed | ETA 75.30h] done   puzzle-3x3-play__task1__sd1
@@ -191,3 +179,22 @@
 [189/320 | fail 0 | 13.56h elapsed | ETA  9.40h] done   humanoidmaze-large-navigate__task3__sd6
 [190/320 | fail 0 | 13.65h elapsed | ETA  9.34h] done   antmaze-giant-navigate__task3__sd7
 [191/320 | fail 0 | 13.69h elapsed | ETA  9.24h] done   cube-triple-play__task3__sd7
+[192/320 | fail 0 | 14.49h elapsed | ETA  9.66h] done   humanoidmaze-large-navigate__task3__sd7
+[193/320 | fail 0 | 15.32h elapsed | ETA 10.08h] done   puzzle-3x3-play__task4__sd0
+[194/320 | fail 0 | 15.33h elapsed | ETA  9.96h] done   scene-play__task4__sd0
+[195/320 | fail 0 | 15.62h elapsed | ETA 10.01h] done   cube-double-play__task4__sd0
+[196/320 | fail 0 | 15.68h elapsed | ETA  9.92h] done   antmaze-large-navigate__task4__sd0
+[197/320 | fail 0 | 15.73h elapsed | ETA  9.82h] done   antmaze-giant-navigate__task4__sd0
+[198/320 | fail 0 | 15.76h elapsed | ETA  9.71h] done   scene-play__task4__sd1
+[199/320 | fail 0 | 15.79h elapsed | ETA  9.60h] done   puzzle-3x3-play__task4__sd1
+[200/320 | fail 0 | 15.87h elapsed | ETA  9.52h] done   cube-triple-play__task4__sd0
+[201/320 | fail 0 | 15.87h elapsed | ETA  9.39h] done   cube-double-play__task4__sd1
+[202/320 | fail 0 | 15.89h elapsed | ETA  9.28h] done   scene-play__task4__sd2
+[203/320 | fail 0 | 15.90h elapsed | ETA  9.17h] done   scene-play__task4__sd3
+[204/320 | fail 0 | 15.91h elapsed | ETA  9.05h] done   puzzle-3x3-play__task4__sd2
+[205/320 | fail 0 | 15.91h elapsed | ETA  8.93h] done   antmaze-large-navigate__task4__sd1
+[206/320 | fail 0 | 16.02h elapsed | ETA  8.86h] done   antmaze-large-navigate__task4__sd2
+[207/320 | fail 0 | 16.02h elapsed | ETA  8.75h] done   humanoidmaze-medium-navigate__task4__sd0
+[208/320 | fail 0 | 16.02h elapsed | ETA  8.63h] done   humanoidmaze-medium-navigate__task4__sd1
+[209/320 | fail 0 | 16.07h elapsed | ETA  8.53h] done   cube-double-play__task4__sd2
+[210/320 | fail 0 | 16.08h elapsed | ETA  8.43h] done   antmaze-giant-navigate__task4__sd1
