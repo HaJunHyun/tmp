@@ -4,29 +4,29 @@ group                                n  avg3(800/900/1M)    final(1M)
 ----------------------------------------------------------------------
 antmaze-giant-navigate task1         8          8.8± 8.6    11.2±10.0
 antmaze-giant-navigate task2         8         45.3±12.6    53.0±17.6
-antmaze-giant-navigate task3         2         35.7±20.3    33.0± 4.2
+antmaze-giant-navigate task3         8         32.5±14.1    33.5±13.4
 antmaze-large-navigate task1         8         82.1± 3.1    83.5± 5.1
 antmaze-large-navigate task2         8         79.0± 3.5    76.8± 7.6
-antmaze-large-navigate task3         2         93.3± 1.9    94.0± 8.5
+antmaze-large-navigate task3         8         94.8± 1.9    94.8± 4.5
 cube-double-play task1               8         45.3± 4.8    42.0± 8.9
 cube-double-play task2               8         28.3± 5.7    23.5± 8.4
-cube-double-play task3               2          9.0± 3.3     7.0± 1.4
+cube-double-play task3               8         11.9± 3.5    11.0± 7.3
 cube-triple-play task1               8         11.9± 3.6    13.5± 6.4
 cube-triple-play task2               8          0.6± 0.4     0.5± 0.9
-cube-triple-play task3               2          0.7± 0.9     1.0± 1.4
+cube-triple-play task3               8          1.0± 0.8     0.8± 1.0
 humanoidmaze-large-navigate task1    8         70.5± 6.1    68.8± 9.8
 humanoidmaze-large-navigate task2    8          4.2± 2.3     5.5± 4.0
-humanoidmaze-large-navigate task3    2         23.0± 3.3    25.0± 1.4
+humanoidmaze-large-navigate task3    7         30.1± 7.5    32.6± 8.5
 humanoidmaze-medium-navigate task1   8         97.8± 0.7    98.0± 1.5
 humanoidmaze-medium-navigate task2   8         99.2± 0.6    99.8± 0.7
-humanoidmaze-medium-navigate task3   2        100.0± 0.0   100.0± 0.0
+humanoidmaze-medium-navigate task3   8         99.1± 1.0    99.5± 0.9
 puzzle-3x3-play task1                8        100.0± 0.0   100.0± 0.0
 puzzle-3x3-play task2                8        100.0± 0.0   100.0± 0.0
-puzzle-3x3-play task3                2        100.0± 0.0   100.0± 0.0
+puzzle-3x3-play task3                8        100.0± 0.0   100.0± 0.0
 scene-play task1                     8         99.4± 0.8    99.2± 1.5
 scene-play task2                     8         73.6± 5.2    71.2± 5.7
-scene-play task3                     2         96.3± 0.5    97.0± 1.4
+scene-play task3                     8         96.2± 1.6    96.2± 3.1
 ----------------------------------------------------------------------
-ALL                                144         58.9±37.9    58.9±38.0
+ALL                                191         59.0±38.6    59.1±38.7
 
-48 run(s) incomplete/missing: antmaze-giant-navigate__task3__sd2 antmaze-giant-navigate__task3__sd3 antmaze-giant-navigate__task3__sd4 antmaze-giant-navigate__task3__sd5 antmaze-giant-navigate__task3__sd6 antmaze-giant-navigate__task3__sd7 antmaze-large-navigate__task3__sd2 antmaze-large-navigate__task3__sd3 antmaze-large-navigate__task3__sd4 antmaze-large-navigate__task3__sd5 ...
+48 run(s) incomplete/missing: antmaze-giant-navigate__task4__sd0 antmaze-giant-navigate__task4__sd1 antmaze-giant-navigate__task4__sd2 antmaze-giant-navigate__task4__sd3 antmaze-giant-navigate__task4__sd4 antmaze-giant-navigate__task4__sd5 antmaze-large-navigate__task4__sd0 antmaze-large-navigate__task4__sd1 antmaze-large-navigate__task4__sd2 antmaze-large-navigate__task4__sd3 ...
