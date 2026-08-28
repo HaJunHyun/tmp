@@ -2,15 +2,23 @@
 evaluation/success  (%, mean±std over seeds)
 group                                n  avg3(800/900/1M)    final(1M)
 ----------------------------------------------------------------------
-antmaze-giant-navigate task1         6          9.8± 9.8    12.0±11.7
-antmaze-large-navigate task1         6         81.7± 3.5    84.0± 5.4
-cube-double-play task1               6         45.8± 5.6    44.3± 9.0
-cube-triple-play task1               6         12.8± 3.6    15.0± 6.5
-humanoidmaze-large-navigate task1    6         72.2± 6.2    72.0± 9.1
-humanoidmaze-medium-navigate task1   6         97.7± 0.7    98.0± 1.8
-puzzle-3x3-play task1                6        100.0± 0.0   100.0± 0.0
-scene-play task1                     6         99.4± 0.9    99.7± 0.8
+antmaze-giant-navigate task1         8          8.8± 8.6    11.2±10.0
+antmaze-giant-navigate task2         4         54.7± 6.6    64.0±13.2
+antmaze-large-navigate task1         8         82.1± 3.1    83.5± 5.1
+antmaze-large-navigate task2         4         79.7± 3.5    73.5± 3.0
+cube-double-play task1               8         45.3± 4.8    42.0± 8.9
+cube-double-play task2               4         28.7± 7.5    25.5± 8.1
+cube-triple-play task1               8         11.9± 3.6    13.5± 6.4
+cube-triple-play task2               4          0.5± 0.3     0.5± 1.0
+humanoidmaze-large-navigate task1    8         70.5± 6.1    68.8± 9.8
+humanoidmaze-large-navigate task2    4          4.2± 1.4     6.5± 4.1
+humanoidmaze-medium-navigate task1   8         97.8± 0.7    98.0± 1.5
+humanoidmaze-medium-navigate task2   4         99.0± 0.4   100.0± 0.0
+puzzle-3x3-play task1                8        100.0± 0.0   100.0± 0.0
+puzzle-3x3-play task2                4        100.0± 0.0   100.0± 0.0
+scene-play task1                     8         99.4± 0.8    99.2± 1.5
+scene-play task2                     4         72.5± 5.1    71.5± 7.9
 ----------------------------------------------------------------------
-ALL                                 48         64.9±35.9    65.6±35.7
+ALL                                 96         61.3±36.9    61.4±36.8
 
-48 run(s) incomplete/missing: antmaze-giant-navigate__task1__sd6 antmaze-giant-navigate__task1__sd7 antmaze-giant-navigate__task2__sd0 antmaze-giant-navigate__task2__sd1 antmaze-giant-navigate__task2__sd2 antmaze-giant-navigate__task2__sd3 antmaze-large-navigate__task1__sd6 antmaze-large-navigate__task1__sd7 antmaze-large-navigate__task2__sd0 antmaze-large-navigate__task2__sd1 ...
+48 run(s) incomplete/missing: antmaze-giant-navigate__task2__sd4 antmaze-giant-navigate__task2__sd5 antmaze-giant-navigate__task2__sd6 antmaze-giant-navigate__task2__sd7 antmaze-giant-navigate__task3__sd0 antmaze-giant-navigate__task3__sd1 antmaze-large-navigate__task2__sd4 antmaze-large-navigate__task2__sd5 antmaze-large-navigate__task2__sd6 antmaze-large-navigate__task2__sd7 ...
