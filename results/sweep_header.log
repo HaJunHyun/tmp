@@ -1,2 +1,4 @@
 [sweep] 320 runs total | 0 already complete | 320 to run
 [sweep] concurrency=48 gpus=[0, 1, 2, 3, 4, 5, 6, 7] results=/workspace/rql_results
+
+[sweep] finished: 320 ok, 0 failed, 21.98h elapsed

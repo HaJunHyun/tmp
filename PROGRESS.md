@@ -1,20 +1,18 @@
-last sync: 2026-08-28 14:25:16 UTC
-completed runs: 285 / 320   (started: 320)
+last sync: 2026-08-28 16:25:30 UTC
+completed runs: 320 / 320   (started: 320)
 
-wrote 285 rows to /workspace/rql_export/results/per_run.csv
+wrote 320 rows to /workspace/rql_export/results/per_run.csv
 
 evaluation/success  (%, mean±std over seeds)
 group                          n  avg3(800/900/1M)    final(1M)
 ----------------------------------------------------------------
-antmaze-giant-navigate        36         34.2±19.8    36.1±22.9
-antmaze-large-navigate        36         84.1± 7.1    83.7± 9.6
-cube-double-play              36         21.2±16.0    19.2±15.5
-cube-triple-play              35          3.4± 5.1     3.7± 6.2
-humanoidmaze-large-navigate   35         36.9±24.1    38.7±24.0
-humanoidmaze-medium-navigate  35         96.1± 7.9    97.9± 3.1
-puzzle-3x3-play               36        100.0± 0.0   100.0± 0.0
-scene-play                    36         90.1±12.3    89.1±13.7
+antmaze-giant-navigate        40         37.0±20.8    38.9±23.5
+antmaze-large-navigate        40         83.2± 7.2    82.8± 9.4
+cube-double-play              40         20.1±15.5    18.2±15.0
+cube-triple-play              40          3.2± 4.8     3.4± 5.9
+humanoidmaze-large-navigate   40         37.3±22.5    38.6±22.4
+humanoidmaze-medium-navigate  40         96.5± 7.4    98.0± 3.0
+puzzle-3x3-play               40        100.0± 0.0   100.0± 0.0
+scene-play                    40         88.8±12.4    87.9±13.5
 ----------------------------------------------------------------
-ALL                          285         58.4±38.3    58.7±38.6
-
-35 run(s) incomplete/missing: antmaze-giant-navigate__task5__sd4 antmaze-giant-navigate__task5__sd5 antmaze-giant-navigate__task5__sd6 antmaze-giant-navigate__task5__sd7 antmaze-large-navigate__task5__sd4 antmaze-large-navigate__task5__sd5 antmaze-large-navigate__task5__sd6 antmaze-large-navigate__task5__sd7 cube-double-play__task5__sd4 cube-double-play__task5__sd5 ...
+ALL                          320         58.3±38.1    58.5±38.4

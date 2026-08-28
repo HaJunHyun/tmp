@@ -1,40 +1,3 @@
-[ 86/320 | fail 0 |  6.74h elapsed | ETA 18.34h] done   cube-double-play__task2__sd3
-[ 87/320 | fail 0 |  6.75h elapsed | ETA 18.08h] done   antmaze-giant-navigate__task2__sd3
-[ 88/320 | fail 0 |  6.76h elapsed | ETA 17.82h] done   cube-triple-play__task2__sd0
-[ 89/320 | fail 0 |  6.83h elapsed | ETA 17.73h] done   humanoidmaze-large-navigate__task1__sd7
-[ 90/320 | fail 0 |  6.83h elapsed | ETA 17.46h] done   cube-triple-play__task2__sd1
-[ 91/320 | fail 0 |  6.91h elapsed | ETA 17.38h] done   humanoidmaze-large-navigate__task2__sd0
-[ 92/320 | fail 0 |  6.95h elapsed | ETA 17.22h] done   cube-triple-play__task2__sd2
-[ 93/320 | fail 0 |  7.01h elapsed | ETA 17.10h] done   humanoidmaze-large-navigate__task2__sd1
-[ 94/320 | fail 0 |  7.03h elapsed | ETA 16.91h] done   cube-triple-play__task2__sd3
-[ 95/320 | fail 0 |  7.09h elapsed | ETA 16.79h] done   humanoidmaze-large-navigate__task2__sd2
-[ 96/320 | fail 0 |  7.18h elapsed | ETA 16.75h] done   humanoidmaze-large-navigate__task2__sd3
-[ 97/320 | fail 0 |  9.20h elapsed | ETA 21.16h] done   puzzle-3x3-play__task2__sd4
-[ 98/320 | fail 0 |  9.32h elapsed | ETA 21.12h] done   antmaze-large-navigate__task2__sd4
-[ 99/320 | fail 0 |  9.39h elapsed | ETA 20.96h] done   scene-play__task2__sd4
-[100/320 | fail 0 |  9.41h elapsed | ETA 20.70h] done   antmaze-giant-navigate__task2__sd4
-[101/320 | fail 0 |  9.42h elapsed | ETA 20.44h] done   puzzle-3x3-play__task2__sd5
-[102/320 | fail 0 |  9.43h elapsed | ETA 20.15h] done   cube-double-play__task2__sd4
-[103/320 | fail 0 |  9.46h elapsed | ETA 19.94h] done   humanoidmaze-medium-navigate__task2__sd4
-[104/320 | fail 0 |  9.49h elapsed | ETA 19.71h] done   antmaze-large-navigate__task2__sd5
-[105/320 | fail 0 |  9.51h elapsed | ETA 19.48h] done   cube-double-play__task2__sd5
-[106/320 | fail 0 |  9.53h elapsed | ETA 19.24h] done   scene-play__task2__sd5
-[107/320 | fail 0 |  9.55h elapsed | ETA 19.00h] done   puzzle-3x3-play__task2__sd6
-[108/320 | fail 0 |  9.56h elapsed | ETA 18.76h] done   humanoidmaze-medium-navigate__task2__sd5
-[109/320 | fail 0 |  9.58h elapsed | ETA 18.55h] done   antmaze-giant-navigate__task2__sd5
-[110/320 | fail 0 |  9.63h elapsed | ETA 18.38h] done   puzzle-3x3-play__task2__sd7
-[111/320 | fail 0 |  9.63h elapsed | ETA 18.13h] done   cube-double-play__task2__sd6
-[112/320 | fail 0 |  9.64h elapsed | ETA 17.89h] done   scene-play__task2__sd6
-[113/320 | fail 0 |  9.66h elapsed | ETA 17.70h] done   antmaze-large-navigate__task2__sd6
-[114/320 | fail 0 |  9.68h elapsed | ETA 17.48h] done   cube-double-play__task2__sd7
-[115/320 | fail 0 |  9.69h elapsed | ETA 17.27h] done   cube-triple-play__task2__sd4
-[116/320 | fail 0 |  9.69h elapsed | ETA 17.04h] done   antmaze-giant-navigate__task2__sd6
-[117/320 | fail 0 |  9.71h elapsed | ETA 16.84h] done   antmaze-large-navigate__task3__sd0
-[118/320 | fail 0 |  9.72h elapsed | ETA 16.65h] done   scene-play__task2__sd7
-[119/320 | fail 0 |  9.75h elapsed | ETA 16.46h] done   cube-triple-play__task2__sd5
-[120/320 | fail 0 |  9.77h elapsed | ETA 16.28h] done   humanoidmaze-medium-navigate__task2__sd6
-[121/320 | fail 0 |  9.78h elapsed | ETA 16.09h] done   antmaze-giant-navigate__task2__sd7
-[122/320 | fail 0 |  9.78h elapsed | ETA 15.88h] done   scene-play__task3__sd0
 [123/320 | fail 0 |  9.79h elapsed | ETA 15.69h] done   antmaze-large-navigate__task2__sd7
 [124/320 | fail 0 |  9.80h elapsed | ETA 15.48h] done   puzzle-3x3-play__task3__sd0
 [125/320 | fail 0 |  9.81h elapsed | ETA 15.31h] done   humanoidmaze-medium-navigate__task2__sd7
@@ -198,3 +161,40 @@
 [283/320 | fail 0 | 19.96h elapsed | ETA  2.61h] done   cube-triple-play__task5__sd2
 [284/320 | fail 0 | 20.03h elapsed | ETA  2.54h] done   antmaze-giant-navigate__task5__sd3
 [285/320 | fail 0 | 20.03h elapsed | ETA  2.46h] done   humanoidmaze-large-navigate__task5__sd2
+[286/320 | fail 0 | 20.17h elapsed | ETA  2.40h] done   humanoidmaze-medium-navigate__task5__sd3
+[287/320 | fail 0 | 20.24h elapsed | ETA  2.33h] done   cube-triple-play__task5__sd3
+[288/320 | fail 0 | 20.95h elapsed | ETA  2.33h] done   cube-double-play__task5__sd4
+[289/320 | fail 0 | 21.14h elapsed | ETA  2.27h] done   antmaze-giant-navigate__task5__sd5
+[290/320 | fail 0 | 21.15h elapsed | ETA  2.19h] done   puzzle-3x3-play__task5__sd4
+[291/320 | fail 0 | 21.16h elapsed | ETA  2.11h] done   humanoidmaze-large-navigate__task5__sd3
+[292/320 | fail 0 | 21.20h elapsed | ETA  2.03h] done   cube-double-play__task5__sd5
+[293/320 | fail 0 | 21.24h elapsed | ETA  1.96h] done   scene-play__task5__sd4
+[294/320 | fail 0 | 21.25h elapsed | ETA  1.88h] done   antmaze-large-navigate__task5__sd4
+[295/320 | fail 0 | 21.26h elapsed | ETA  1.80h] done   humanoidmaze-medium-navigate__task5__sd6
+[296/320 | fail 0 | 21.28h elapsed | ETA  1.73h] done   scene-play__task5__sd5
+[297/320 | fail 0 | 21.30h elapsed | ETA  1.65h] done   antmaze-giant-navigate__task5__sd7
+[298/320 | fail 0 | 21.52h elapsed | ETA  1.59h] done   cube-triple-play__task5__sd4
+[299/320 | fail 0 | 21.52h elapsed | ETA  1.51h] done   humanoidmaze-medium-navigate__task5__sd4
+[300/320 | fail 0 | 21.54h elapsed | ETA  1.44h] done   puzzle-3x3-play__task5__sd6
+[301/320 | fail 0 | 21.54h elapsed | ETA  1.36h] done   cube-double-play__task5__sd6
+[302/320 | fail 0 | 21.55h elapsed | ETA  1.28h] done   puzzle-3x3-play__task5__sd5
+[303/320 | fail 0 | 21.56h elapsed | ETA  1.21h] done   scene-play__task5__sd6
+[304/320 | fail 0 | 21.58h elapsed | ETA  1.14h] done   antmaze-giant-navigate__task5__sd4
+[305/320 | fail 0 | 21.62h elapsed | ETA  1.06h] done   humanoidmaze-large-navigate__task5__sd4
+[306/320 | fail 0 | 21.64h elapsed | ETA  0.99h] done   antmaze-giant-navigate__task5__sd6
+[307/320 | fail 0 | 21.65h elapsed | ETA  0.92h] done   antmaze-large-navigate__task5__sd7
+[308/320 | fail 0 | 21.66h elapsed | ETA  0.84h] done   antmaze-large-navigate__task5__sd5
+[309/320 | fail 0 | 21.66h elapsed | ETA  0.77h] done   humanoidmaze-medium-navigate__task5__sd5
+[310/320 | fail 0 | 21.69h elapsed | ETA  0.70h] done   humanoidmaze-large-navigate__task5__sd5
+[311/320 | fail 0 | 21.73h elapsed | ETA  0.63h] done   humanoidmaze-large-navigate__task5__sd6
+[312/320 | fail 0 | 21.75h elapsed | ETA  0.56h] done   humanoidmaze-large-navigate__task5__sd7
+[313/320 | fail 0 | 21.77h elapsed | ETA  0.49h] done   antmaze-large-navigate__task5__sd6
+[314/320 | fail 0 | 21.78h elapsed | ETA  0.42h] done   puzzle-3x3-play__task5__sd7
+[315/320 | fail 0 | 21.82h elapsed | ETA  0.35h] done   cube-triple-play__task5__sd5
+[316/320 | fail 0 | 21.85h elapsed | ETA  0.28h] done   scene-play__task5__sd7
+[317/320 | fail 0 | 21.86h elapsed | ETA  0.21h] done   cube-triple-play__task5__sd7
+[318/320 | fail 0 | 21.86h elapsed | ETA  0.14h] done   cube-double-play__task5__sd7
+[319/320 | fail 0 | 21.86h elapsed | ETA  0.07h] done   humanoidmaze-medium-navigate__task5__sd7
+[320/320 | fail 0 | 21.98h elapsed | ETA  0.00h] done   cube-triple-play__task5__sd6
+
+[sweep] finished: 320 ok, 0 failed, 21.98h elapsed

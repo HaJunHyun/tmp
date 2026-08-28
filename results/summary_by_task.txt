@@ -6,43 +6,41 @@ antmaze-giant-navigate task1         8          8.8± 8.6    11.2±10.0
 antmaze-giant-navigate task2         8         45.3±12.6    53.0±17.6
 antmaze-giant-navigate task3         8         32.5±14.1    33.5±13.4
 antmaze-giant-navigate task4         8         36.2±14.2    29.0±14.3
-antmaze-giant-navigate task5         4         62.0± 4.3    71.5± 4.1
+antmaze-giant-navigate task5         8         62.1± 6.9    67.5± 9.6
 antmaze-large-navigate task1         8         82.1± 3.1    83.5± 5.1
 antmaze-large-navigate task2         8         79.0± 3.5    76.8± 7.6
 antmaze-large-navigate task3         8         94.8± 1.9    94.8± 4.5
 antmaze-large-navigate task4         8         83.1± 3.6    83.5± 3.2
-antmaze-large-navigate task5         4         78.5± 8.4    76.0±16.2
+antmaze-large-navigate task5         8         77.2± 5.9    75.8±10.8
 cube-double-play task1               8         45.3± 4.8    42.0± 8.9
 cube-double-play task2               8         28.3± 5.7    23.5± 8.4
 cube-double-play task3               8         11.9± 3.5    11.0± 7.3
 cube-double-play task4               8          5.2± 2.3     5.0± 4.1
-cube-double-play task5               4          9.3± 2.5     9.5± 3.0
+cube-double-play task5               8          9.6± 2.2     9.8± 3.3
 cube-triple-play task1               8         11.9± 3.6    13.5± 6.4
 cube-triple-play task2               8          0.6± 0.4     0.5± 0.9
 cube-triple-play task3               8          1.0± 0.8     0.8± 1.0
 cube-triple-play task4               8          0.2± 0.3     0.5± 0.9
-cube-triple-play task5               3          3.6± 0.8     2.7± 1.2
+cube-triple-play task5               8          2.3± 1.3     1.8± 1.3
 humanoidmaze-large-navigate task1    8         70.5± 6.1    68.8± 9.8
 humanoidmaze-large-navigate task2    8          4.2± 2.3     5.5± 4.0
 humanoidmaze-large-navigate task3    8         31.8± 8.4    34.2± 9.2
 humanoidmaze-large-navigate task4    8         41.2±11.5    46.0±13.4
-humanoidmaze-large-navigate task5    3         36.9± 5.1    39.3±11.5
+humanoidmaze-large-navigate task5    8         38.7± 4.5    38.8± 6.3
 humanoidmaze-medium-navigate task1   8         97.8± 0.7    98.0± 1.5
 humanoidmaze-medium-navigate task2   8         99.2± 0.6    99.8± 0.7
 humanoidmaze-medium-navigate task3   8         99.1± 1.0    99.5± 0.9
 humanoidmaze-medium-navigate task4   8         87.1±13.2    93.8± 3.9
-humanoidmaze-medium-navigate task5   3         99.8± 0.4    99.3± 1.2
+humanoidmaze-medium-navigate task5   8         99.6± 0.5    99.2± 1.0
 puzzle-3x3-play task1                8        100.0± 0.0   100.0± 0.0
 puzzle-3x3-play task2                8        100.0± 0.0   100.0± 0.0
 puzzle-3x3-play task3                8        100.0± 0.0   100.0± 0.0
 puzzle-3x3-play task4                8        100.0± 0.0   100.0± 0.0
-puzzle-3x3-play task5                4        100.0± 0.0   100.0± 0.0
+puzzle-3x3-play task5                8        100.0± 0.0   100.0± 0.0
 scene-play task1                     8         99.4± 0.8    99.2± 1.5
 scene-play task2                     8         73.6± 5.2    71.2± 5.7
 scene-play task3                     8         96.2± 1.6    96.2± 3.1
 scene-play task4                     8         99.4± 1.0    99.2± 1.5
-scene-play task5                     4         73.3± 3.9    70.0± 6.7
+scene-play task5                     8         75.3± 5.6    73.8± 6.6
 ----------------------------------------------------------------------
-ALL                                285         58.4±38.3    58.7±38.6
-
-35 run(s) incomplete/missing: antmaze-giant-navigate__task5__sd4 antmaze-giant-navigate__task5__sd5 antmaze-giant-navigate__task5__sd6 antmaze-giant-navigate__task5__sd7 antmaze-large-navigate__task5__sd4 antmaze-large-navigate__task5__sd5 antmaze-large-navigate__task5__sd6 antmaze-large-navigate__task5__sd7 cube-double-play__task5__sd4 cube-double-play__task5__sd5 ...
+ALL                                320         58.3±38.1    58.5±38.4
