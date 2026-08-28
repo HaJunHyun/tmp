@@ -1,20 +1,20 @@
-last sync: 2026-08-28 12:25:01 UTC
-completed runs: 240 / 320   (started: 288)
+last sync: 2026-08-28 14:25:16 UTC
+completed runs: 285 / 320   (started: 320)
 
-wrote 240 rows to /workspace/rql_export/results/per_run.csv
+wrote 285 rows to /workspace/rql_export/results/per_run.csv
 
 evaluation/success  (%, mean±std over seeds)
 group                          n  avg3(800/900/1M)    final(1M)
 ----------------------------------------------------------------
-antmaze-giant-navigate        30         30.2±18.5    31.7±20.8
-antmaze-large-navigate        30         84.9± 6.9    84.6± 8.6
-cube-double-play              30         23.9±16.1    21.5±16.0
-cube-triple-play              30          3.6± 5.4     4.1± 6.6
-humanoidmaze-large-navigate   30         36.9±26.0    38.3±25.5
-humanoidmaze-medium-navigate  30         96.0± 8.3    98.2± 2.7
-puzzle-3x3-play               30        100.0± 0.0   100.0± 0.0
-scene-play                    30         91.6±11.5    90.9±12.6
+antmaze-giant-navigate        36         34.2±19.8    36.1±22.9
+antmaze-large-navigate        36         84.1± 7.1    83.7± 9.6
+cube-double-play              36         21.2±16.0    19.2±15.5
+cube-triple-play              35          3.4± 5.1     3.7± 6.2
+humanoidmaze-large-navigate   35         36.9±24.1    38.7±24.0
+humanoidmaze-medium-navigate  35         96.1± 7.9    97.9± 3.1
+puzzle-3x3-play               36        100.0± 0.0   100.0± 0.0
+scene-play                    36         90.1±12.3    89.1±13.7
 ----------------------------------------------------------------
-ALL                          240         58.4±38.7    58.7±38.9
+ALL                          285         58.4±38.3    58.7±38.6
 
-48 run(s) incomplete/missing: antmaze-giant-navigate__task4__sd6 antmaze-giant-navigate__task4__sd7 antmaze-giant-navigate__task5__sd0 antmaze-giant-navigate__task5__sd1 antmaze-giant-navigate__task5__sd2 antmaze-giant-navigate__task5__sd3 antmaze-large-navigate__task4__sd6 antmaze-large-navigate__task4__sd7 antmaze-large-navigate__task5__sd0 antmaze-large-navigate__task5__sd1 ...
+35 run(s) incomplete/missing: antmaze-giant-navigate__task5__sd4 antmaze-giant-navigate__task5__sd5 antmaze-giant-navigate__task5__sd6 antmaze-giant-navigate__task5__sd7 antmaze-large-navigate__task5__sd4 antmaze-large-navigate__task5__sd5 antmaze-large-navigate__task5__sd6 antmaze-large-navigate__task5__sd7 cube-double-play__task5__sd4 cube-double-play__task5__sd5 ...
