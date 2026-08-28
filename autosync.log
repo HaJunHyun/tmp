@@ -20,3 +20,6 @@ sync: committed (240/320)
 sync: pushed
 sync: committed (285/320)
 sync: pushed
+sync: committed (320/320)
+sync: pushed
+2026-08-28 16:25:33 UTC sweep no longer running; final sync done, exiting
