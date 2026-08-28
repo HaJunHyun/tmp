@@ -1,0 +1,2 @@
+evaluation/prev_button_states,evaluation/button_states,evaluation/prev_qpos,evaluation/prev_qvel,evaluation/qpos,evaluation/qvel,evaluation/control,evaluation/time,evaluation/success,evaluation/total.timesteps,evaluation/episode.final_reward,evaluation/episode.return,evaluation/episode.length,evaluation/episode.duration,evaluation/action,step
+0.1,0.1,-0.13195742236543695,0.0023473459112428536,-0.13180743826726812,0.0034329891654834755,31.43781559166379,23.540999999999325,0.78,11830.02,-0.56,-1245.18,468.82,5.4452741336822506,-0.06174942,800000

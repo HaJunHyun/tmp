@@ -1,4 +1,4 @@
-last sync: 2026-08-27 22:23:52 UTC
+last sync: 2026-08-28 00:23:58 UTC
 completed runs: 48 / 320   (started: 96)
 
 wrote 48 rows to /workspace/rql_export/results/per_run.csv
